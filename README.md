@@ -56,7 +56,7 @@ See NLTK documentation for details.
 # Built With
 * [GitPython](https://gitpython.readthedocs.io/en/stable/ "GitPython") - for cloning GitHub repositories
 * [Abstract Syntax Trees](https://greentreesnakes.readthedocs.io/en/latest/index.html "AST") - for inspecting Python code
-* [NLTK](https://www.nltk.org "NLTK") - for parsing function names 
+* [NLTK](https://www.nltk.org "NLTK") - for parsing function and variable names 
 
 For in-depth NLTK understanding see [Bird, Steven, Edward Loper and Ewan Klein (2009), Natural Language Processing with Python. O’Reilly Media Inc.](https://www.nltk.org/book/ "Natural Language Processing with Python").
 
