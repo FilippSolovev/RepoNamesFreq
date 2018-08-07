@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO, format='%(message)s')
 
 
-def flatter_a_list(list_of_lists):
+def flatter_list(list_of_lists):
     output = []
     for sublist in list_of_lists:
         for item in sublist:
@@ -29,7 +29,7 @@ def get_words_within_path(path, type_of_node='function', type_of_word='verb'):
             word,
             type_of_word=type_of_word))
 
-    words = flatter_a_list(words)
+    words = flatter_list(words)
 
     logger.info(f'total {len(words)} words, {len(set(words))} unique')
 
